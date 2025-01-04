@@ -8,7 +8,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Features from './Components/Features/Features';
 import FAQ from './Components/FAQ/FAQ';
-import Contact from './Components/Contact/Contact';
+import Contact from './Components/Contact/contact';
 import Footer from './Components/Footer/Footer';
 
 // Dynamic Pages
