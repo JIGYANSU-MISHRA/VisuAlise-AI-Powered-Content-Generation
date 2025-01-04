@@ -1,0 +1,71 @@
+/* Container styling */
+.image-to-text-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin-left: 90px;
+    margin-bottom: -30px;
+    width: calc(100% + 20px);
+    min-height: 10vh;
+    text-align: center;
+    background-color: #333;
+}
+
+/* Title styling */
+.image-to-text-container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.image-to-text-container p {
+    font-size: 17px;
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 1.8;
+}
+
+/* File input styling */
+input[type="file"] {
+    margin: 50px 0;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #d1ba37, #d58b1c);
+    color: #fff;
+}
+
+button:hover {
+    background: linear-gradient(to right, #d58b1c, #d1ba37);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Image preview styling */
+.image-preview {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Output text styling */
+.output {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    color: #000;
+}

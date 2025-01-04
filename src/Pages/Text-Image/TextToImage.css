@@ -1,0 +1,91 @@
+/* Container styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Content section styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Textarea styling */
+.text-input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* Generate button styling */
+.generate-button {
+  background: linear-gradient(to right, #4caf50, #36d1dc);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.generate-button:hover {
+  background: linear-gradient(to right, #d1ba37, #d58b1c);
+}
+
+.generate-button.loading {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* Images grid styling */
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Image styling */
+.generated-image {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Load More button styling */
+.load-more-button {
+  background: linear-gradient(to right, #d1ba37, #d58b1c);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 20px;
+}
+
+.load-more-button:hover {
+  background: linear-gradient(to right, #d58b1c, #d1ba37);
+}

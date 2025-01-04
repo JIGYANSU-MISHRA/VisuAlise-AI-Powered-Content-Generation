@@ -1,0 +1,49 @@
+/* Home.css */
+
+.landing-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-left: 90px;
+    margin-bottom: -30px;
+    width: calc(100% + 20px);
+    min-height: 10vh;
+  }
+  .highlight {
+    color: #e6ad0f; /* Change this to your desired color */
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #c6bcc0, #3a393a);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+  
+  

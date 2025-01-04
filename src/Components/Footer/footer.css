@@ -1,0 +1,17 @@
+.footers{
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    margin-left: 90px;
+    width: calc(100% + 20px);
+    min-height: 10vh;
+}
+.footer {
+    text-align: center;
+    padding: 28px;
+    background-color: #333;
+    color: white;
+  }
+
+  .footer p {
+    margin: 0;
+  }

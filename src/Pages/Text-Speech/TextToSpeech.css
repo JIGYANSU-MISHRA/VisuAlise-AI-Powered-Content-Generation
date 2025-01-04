@@ -1,0 +1,73 @@
+/* Container styling */
+.text-to-speech-container {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin-left: 90px;
+    margin-bottom: -30px;
+    width: calc(100% + 20px);
+    min-height: 10vh;
+}
+
+/* Title styling */
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.text-to-speech-container p {
+    font-size: 17px;
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 1.8;
+}
+
+/* Content section styling */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    resize: none;
+}
+
+/* Buttons container styling */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Button styling */
+button {
+    background: linear-gradient(to right, #d1ba37, #d58b1c);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(to right, #d58b1c, #d1ba37);
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
