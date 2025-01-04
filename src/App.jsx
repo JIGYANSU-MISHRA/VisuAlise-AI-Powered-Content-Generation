@@ -9,7 +9,7 @@ import About from './Components/About/About';
 import Features from './Components/Features/Features';
 import FAQ from './Components/FAQ/FAQ';
 import Contact from './Components/Contact/contact';
-import Footer from './Components/Footer/Footer';
+import Footer from './Components/Footer/footer';
 
 // Dynamic Pages
 import TextToImage from './Pages/Text-Image/TextToImage.jsx';
